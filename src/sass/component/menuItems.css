@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "InterV_Bold";
+  src: url("../../font/Inter-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "InterV_Semi";
+  src: url("../../font/Inter-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "InterV_Medium";
+  src: url("../../font/Inter-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Inter-V";
+  src: url("../../font/Inter-V.ttf") format("opentype");
+}
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #1D1D1B;
+  mix-blend-mode: normal;
+}
+.menu-item .menu-icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 8px;
+}
+.menu-item .menu-description {
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  color: #1D1D1B;
+  font-weight: bold;
+  font-family: "InterV_Semi", sans-serif;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.menu-button.active {
+  background: #ffffff;
+  box-shadow: 0px 0.5px 2px -1px #c8cad1;
+  border-radius: 0.3125rem;
+  height: 2.5375rem;
+  width: 3.9rem;
+  opacity: 1;
+}
+.menu-button.active .menu-description {
+  color: #BB1E1E;
+}/*# sourceMappingURL=menuItems.css.map */

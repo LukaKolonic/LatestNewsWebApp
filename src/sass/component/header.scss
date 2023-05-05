@@ -1,0 +1,73 @@
+@import "../abstracts/variables.scss";
+@import "../abstracts/typography.scss";
+
+.header {
+  width: 100%;
+  height: 3.75rem;
+  background-color: $redColor;
+  display: flex;
+  justify-content: center;
+
+  .title {
+    position: absolute;
+    width: 14.8125rem;
+    height: 1.3125rem;
+    left: 12.625rem;
+    top: 1.1875rem;
+    font-family: 'InterV_Bold', sans-serif;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    letter-spacing: -0.0085rem;
+    color: $white;
+  }
+
+  .desc {
+    position: absolute;
+    width: 21.625rem;
+    height: 1.3125rem;
+    left: 29.3125rem;
+    top: 1rem;
+    font-family: 'Inter-V', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    letter-spacing: -0.0074375rem;
+    color: $white;
+  }
+
+  .get {
+    position: absolute;
+    margin-left: 45.125rem;
+    background: $white;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: 4.3125rem;
+    border-style: none;
+    margin-top: 0.625rem;
+    font-family: 'InterV_Bold', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .noBtn {
+    position: absolute;
+    height: 1.25rem;
+    font-family: 'InterV_Bold', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-top: 1.25rem;
+    margin-left: 56.525rem;
+    text-align: center;
+    color: $white;
+    border: none;
+    background-color: transparent;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .header {
+    display: none;
+  }
+}

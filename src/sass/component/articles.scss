@@ -1,0 +1,26 @@
+
+.article-list {
+  display: grid;
+  position: absolute;
+  top: 14.375rem;
+  left: 18.25rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 375px) {
+  .article-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 22.5rem;
+    left: 1.5625rem;
+  }
+}
+
+
+    
+  

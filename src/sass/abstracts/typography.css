@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "InterV_Bold";
+  src: url("../../font/Inter-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "InterV_Semi";
+  src: url("../../font/Inter-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "InterV_Medium";
+  src: url("../../font/Inter-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Inter-V";
+  src: url("../../font/Inter-V.ttf") format("opentype");
+}/*# sourceMappingURL=typography.css.map */

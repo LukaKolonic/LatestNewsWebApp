@@ -1,0 +1,71 @@
+@import "../abstracts/typography.scss";
+@import "../abstracts/variables.scss";
+
+.article {
+  position: relative;
+  width: 20.125rem;
+  height: 14.9375rem;
+  background: $white;
+  box-shadow: 0px 1px 2px -1px #c8cad1;
+  border-radius: 8px;
+  float: left;
+
+  .category {
+    position: absolute;
+    left: 0.75rem;
+    width: 1.75rem;
+    height: 1rem;
+    font-family: "InterV_Bold", sans-serif;
+    font-size: 0.625rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    color: $blue;
+    font-weight: bold;
+  }
+
+  .title {
+    position: absolute;
+    width: 18.625rem;
+    font-family: "InterV_Medium", sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.11px;
+    color: $black;
+    top: 9.375rem;
+    left: 0.75rem;
+    max-height: 4.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .author {
+    position: absolute;
+    height: 0.9375;
+    width: 18.4375rem;
+    top: 12.75rem;
+    font-family: "Inter-V", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.0675px;
+    color: #1d1d1b;
+    left: 0.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    box-shadow: 0px 1px 2px -1px #c8cad1;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  
+}

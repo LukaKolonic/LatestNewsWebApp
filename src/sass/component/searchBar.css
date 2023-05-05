@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "InterV_Bold";
+  src: url("../../font/Inter-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "InterV_Semi";
+  src: url("../../font/Inter-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "InterV_Medium";
+  src: url("../../font/Inter-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Inter-V";
+  src: url("../../font/Inter-V.ttf") format("opentype");
+}
+.search {
+  background: white;
+  box-shadow: 0px 1px 2px -1px #c8cad1;
+  border-radius: 0.625rem;
+  height: 3.125rem;
+  width: 725px;
+  margin-left: 24.5rem;
+  margin-top: 1.875rem;
+  border-radius: 0.625rem;
+  display: flex;
+  align-items: center;
+}
+.search .textSearch {
+  width: 49.375rem;
+  height: 1.25rem;
+  margin-left: 0.625rem;
+  top: 0.9375rem;
+  font-family: "Inter-V", sans-serif;
+  font-size: 15px;
+  line-height: 1.25rem;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  border: none;
+}
+.search .textSearch:focus {
+  outline: none;
+}
+.search .btnSearch {
+  height: 2.5rem;
+  width: 5.9375rem;
+  left: 64rem;
+  border-radius: 6px;
+  position: absolute;
+  background: #BB1E1E;
+  font-family: "InterV_Bold", sans-serif;
+  font-size: 15px;
+  line-height: 1.25rem;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.search .iconSearch {
+  margin-left: 1.25rem;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 375px) {
+  .search {
+    width: 333px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .textSearch {
+    width: 70%;
+    margin-left: 0.625rem;
+  }
+  .iconSearch {
+    margin-left: 0.125rem;
+  }
+  .btnSearch {
+    display: none;
+  }
+}/*# sourceMappingURL=searchBar.css.map */

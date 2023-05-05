@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "InterV_Bold";
+  src: url("../../font/Inter-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "InterV_Semi";
+  src: url("../../font/Inter-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "InterV_Medium";
+  src: url("../../font/Inter-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Inter-V";
+  src: url("../../font/Inter-V.ttf") format("opentype");
+}
+.item {
+  width: 100%;
+}
+.item .date {
+  width: 134px;
+  height: 16px;
+  font-family: "InterV_Bold", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1e71bb;
+  font-weight: bold;
+}
+.item .newsTitle {
+  font-family: "InterV_Medium", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+.item .hr {
+  opacity: 0.1;
+}/*# sourceMappingURL=latestNewsItem.css.map */

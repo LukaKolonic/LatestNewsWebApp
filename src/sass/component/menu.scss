@@ -1,0 +1,47 @@
+
+
+.menu {
+  position: relative;
+  width: 100px;
+  left: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top:10px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+
+  img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+}
+
+
+@media (max-width: 375px) {
+  .menu {
+    display: none;
+  }
+}
+
+
+
+
+
+
